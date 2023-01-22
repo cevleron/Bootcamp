@@ -1,0 +1,15 @@
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.csproj.AssemblyReference.cache
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.GeneratedMSBuildEditorConfig.editorconfig
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.AssemblyInfoInputs.cache
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.AssemblyInfo.cs
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.csproj.CoreCompileInputs.cache
+/Users/test/Desktop/bGB/ParallelMatrix/bin/Debug/net7.0/ParallelMatrix
+/Users/test/Desktop/bGB/ParallelMatrix/bin/Debug/net7.0/ParallelMatrix.deps.json
+/Users/test/Desktop/bGB/ParallelMatrix/bin/Debug/net7.0/ParallelMatrix.runtimeconfig.json
+/Users/test/Desktop/bGB/ParallelMatrix/bin/Debug/net7.0/ParallelMatrix.dll
+/Users/test/Desktop/bGB/ParallelMatrix/bin/Debug/net7.0/ParallelMatrix.pdb
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.dll
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/refint/ParallelMatrix.dll
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.pdb
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ParallelMatrix.genruntimeconfig.cache
+/Users/test/Desktop/bGB/ParallelMatrix/obj/Debug/net7.0/ref/ParallelMatrix.dll

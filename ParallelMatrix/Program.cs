@@ -1,4 +1,5 @@
 ﻿const int N = 1000; // размер матрицы
+const int THREADS_NUMBER = 10;
 
 int[,] serialMulRes = new int[N, N]; // результат умножения матриц в однопотоке
 int[,] threadMulRes = new int[N, N]; // результат паралельного умножения матриц
@@ -7,6 +8,9 @@ int[,] firstMatrix = MatrixGenerator(N, N);
 int[,] secondMatrix = MatrixGenerator(N, N);
 
 SerialMatrixMul(firstMatrix, secondMatrix);
+PrepareParallelMatrixMul(firstMatrix,secondMatrix);
+Console.WriteLine(EqualityMatrix(serialMulRes, threadMulRes));
+
 
 int[,] MatrixGenerator(int rows, int columns)
 {
@@ -56,4 +60,33 @@ void PrepareParallelMatrixMul(int[,] a, int[,] b)
     {
         threadsList[i].Join();
     }
+}
+
+void ParallelMatrixMul(int[,] a, int[,] b, int startPos, int endPos)
+{
+    for (int i = startPos; i < endPos; i++)
+    {
+        for (int j = 0; j < b.GetLength(1); j++)
+        {
+            for (int k = 0; k < b.GetLength(0); k++)
+            {
+                threadMulRes[i, j] += a[i, k] * b[k, j];
+            }
+        }
+    }
+}
+
+bool EqualityMatrix(int[,] fmatrix, int[,] smatrix)
+{
+    bool res = true;
+
+    for (int i = 0; i < fmatrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < fmatrix.GetLength(1); j++)
+        {
+            res = res && (fmatrix[i, j] == smatrix[i, j]);
+        }
+    }
+
+    return res;
 }
