@@ -1,0 +1,5 @@
+/Users/test/Desktop/bGB/CountSort/obj/Debug/net7.0/CountSort.csproj.AssemblyReference.cache
+/Users/test/Desktop/bGB/CountSort/obj/Debug/net7.0/CountSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/test/Desktop/bGB/CountSort/obj/Debug/net7.0/CountSort.AssemblyInfoInputs.cache
+/Users/test/Desktop/bGB/CountSort/obj/Debug/net7.0/CountSort.AssemblyInfo.cs
+/Users/test/Desktop/bGB/CountSort/obj/Debug/net7.0/CountSort.csproj.CoreCompileInputs.cache
